@@ -10,7 +10,7 @@
 
 ## Demo
 
-Insert gif or link to demo
+Link: https://riscky05.github.io/Advanced-CSS/
 
 
 
