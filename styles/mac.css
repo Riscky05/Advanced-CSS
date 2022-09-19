@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    font-size: 20px;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    padding: 0 40px;
+}
+
+css-pro {
+    display: grid;
+    width: calc(var(--base) * 3);
+    padding-bottom: calc(var(--base) * 2);
+    grid-gap: var(--base);
+    margin: 40px auto;
+}
+
+css-pro img {
+    width: 100%;
+}
+
+css-title {
+    font-size: calc(var(--base) / 2);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(var(--base) * 2);
+    top: var(--base);
+}
+
+css-case {
+    top: var(--base);
+    z-index: 1;
+}
+
+css-inside {
+    top: calc(var(--base) - 8vmin);
+    margin-bottom: -5.5vmin;
+}
+
+css-pro :is(css-inside, css-case, css-title) {
+    position: sticky;
+}

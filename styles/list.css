@@ -1,0 +1,51 @@
+stick-list {
+    display: flex;
+    width: 100%;
+    max-width: 60vw;
+    margin: 0 auto;
+    color: white;
+    flex-direction: column;
+    line-height: 1.38;
+    position: relative;
+    margin-bottom: 40vh;
+}
+
+stick-letter {
+    font-weight: bold;
+    font-size: var(--base);
+    top: var(--base);
+    position: sticky;
+    height: min-content;
+    margin-right: var(--base);
+    max-width: 2ch;
+}
+
+stick-item {
+    margin-top: var(--base);
+    display: flex;
+}
+
+stick-content {
+    display: flex;
+    flex-direction: column;
+}
+
+stick-title {
+    font-weight: bold;
+    font-size: var(--base);
+}
+
+stick-text {
+    font-size: 2vw;
+}
+
+stick-title, stick-text {
+    background: var(--gradient-alternate);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(0,0,0,0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
